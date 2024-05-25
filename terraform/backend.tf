@@ -10,7 +10,7 @@
 
 terraform {
   backend "remote" {
-    organization = "sausage-org"
+    organization = "sausage-org2"
 
     workspaces {
       name = "terraform-structure"
