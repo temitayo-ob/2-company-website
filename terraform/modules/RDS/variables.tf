@@ -20,6 +20,11 @@ variable "private_subnets" {
   description = "Private subnets fro DB subnets group"
 }
 
+variable "instance_class" {
+  type        = list
+  description = "Private subnets fro DB subnets group"
+}
+
 
 variable "tags" {
   description = "A mapping of tags to assign to all resources."

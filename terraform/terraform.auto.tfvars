@@ -26,6 +26,8 @@ ami-sonar = "ami-06b6321981d0492c1"
 
 keypair = "os"
 
+instance_class = "db.t3.micro"
+
 master-password = "tayo12345"
 
 master-username = "temitayo"

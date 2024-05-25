@@ -92,3 +92,8 @@ variable "master-password" {
   type        = string
   description = "RDS master password"
 }
+
+variable "instance_class" {
+  type        = string
+  description = "db instance class"
+}

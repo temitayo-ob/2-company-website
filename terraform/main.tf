@@ -101,6 +101,7 @@ module "RDS" {
   source          = "./modules/RDS"
   db-password     = var.master-password
   db-username     = var.master-username
+  instance_class  = var.instance_class
   db-sg           = [module.security.datalayer-sg]
   private_subnets = [module.VPC.private_subnets-3, module.VPC.private_subnets-4]
 }

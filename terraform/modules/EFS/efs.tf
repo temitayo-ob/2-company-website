@@ -1,4 +1,5 @@
 # create key from key management system
+
 resource "aws_kms_key" "ACS-kms" {
   description = "KMS key "
   policy      = <<EOF
