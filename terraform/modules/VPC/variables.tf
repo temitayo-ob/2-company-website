@@ -14,9 +14,9 @@ variable "enable_dns_hostnames" {
   type = bool
 }
 
-variable "enable_classiclink" {
-  type = bool
-}
+# variable "enable_classiclink" {
+#   type = bool
+# }
 
 
 variable "preferred_number_of_public_subnets" {
