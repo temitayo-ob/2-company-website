@@ -16,24 +16,24 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami-web = "ami-00a45107f7c3455a5"
+ami-web = "ami-098530d826cef45df"
 
-ami-bastion = "ami-0dbc99375eba56ff4"
+ami-bastion = "ami-030aeab3ac87fde0e"
 
-ami-nginx = "ami-010bd88cc8f5997f3"
+ami-nginx = "ami-052d52a72f68045bf"
 
-ami-sonar = "ami-0f8bd95a744e074b8"
+ami-sonar = "ami-06b6321981d0492c1"
 
-keypair = "devops"
+keypair = "os"
 
-master-password = "devopspblproject"
+master-password = "tayo12345"
 
-master-username = "david"
+master-username = "temitayo"
 
-account_no = "696742900004"
+account_no = "141033868323"
 
 tags = {
-  Owner-Email     = "infradev-segun@darey.io"
+  Owner-Email     = "obisakin@yahoo.com"
   Managed-By      = "Terraform"
   Billing-Account = "1234567890"
 }
