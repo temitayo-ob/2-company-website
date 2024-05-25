@@ -21,7 +21,7 @@ variable "private_subnets" {
 }
 
 variable "instance_class" {
-  type        = list
+  type        = string
   description = "Private subnets fro DB subnets group"
 }
 
